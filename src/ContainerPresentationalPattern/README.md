@@ -1,6 +1,8 @@
-Container and presentation patterns
-The Container and presentation pattern is a pattern that aims to separate the presentation logic from the business logic in a react code, thereby making it modular, testable, and one that follows the separations of concern principle. Mostly in react applications, there arise cases where we are required to fetch data from a backend/store or to compute a logic and represent the resultant of that computation on a react component. In these cases, the container and presentation pattern shines as it can be used to categorize the components into two namely:
+# Container and Presentation Patterns
 
-The container component, which acts as the component responsible for the data fetching or computation.
-the presentation component, whose job is to render the fetched data or computed value on the UI(user interface).
-An example of Container and presentation pattern is shown below:
+The **Container and Presentation Pattern** is a design pattern that aims to separate presentation logic from business logic in React code. This separation makes the code modular, testable, and adheres to the principle of separation of concerns. In React applications, there are often scenarios where data needs to be fetched from a backend/store or logic needs to be computed, and the results displayed in a React component. In such cases, the container and presentation pattern is beneficial as it categorizes components into two types:
+
+- **Container Component**: Responsible for data fetching or computation.
+- **Presentation Component**: Responsible for rendering the fetched data or computed value on the user interface (UI).
+
+An example of the Container and Presentation Pattern is shown below:

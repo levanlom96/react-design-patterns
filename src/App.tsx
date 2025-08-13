@@ -1,18 +1,23 @@
-import './App.scss'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navigation from './components/Navigation/Navigation';
+import Home from './pages/Home/Home';
+import ContainerPresentationalPage from './pages/ContainerPresentationalPage/ContainerPresentationalPage';
+import './App.scss';
 
 function App() {
   return (
-    <div className="app">
-      <div className="app__header">
-        <h1>React Design Patterns</h1>
+    <Router>
+      <div className="app">
+        <Navigation />
+        <main className="app__content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/container-presentational" element={<ContainerPresentationalPage />} />
+          </Routes>
+        </main>
       </div>
-      <div className="app__content">
-        <p>
-          Welcome to React Design Patterns! This is a clean starting point for exploring various React design patterns and best practices.
-        </p>
-      </div>
-    </div>
-  )
+    </Router>
+  );
 }
 
 export default App

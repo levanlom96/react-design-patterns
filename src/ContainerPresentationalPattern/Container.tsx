@@ -19,7 +19,7 @@ const StarWarsCharactersContainer: React.FC = () => {
     } catch (err) {
       setError(true);
     } finally {  
-      setIsLoading(true);
+      setIsLoading(false);
     }
   };
 
