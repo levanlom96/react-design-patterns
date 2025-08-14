@@ -9,9 +9,7 @@ const StarWarsCharactersContainer: React.FC = () => {
   const getCharacters = async () => {
     setIsLoading(true);
     try {
-      const response = await fetch(
-        "https://akabab.github.io/starwars-api/api/all.json",
-      );
+      const response = await fetch("/assets/data.json");
       const data = await response.json();
       setIsLoading(false);
       if (!data) return;

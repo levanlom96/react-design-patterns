@@ -7,6 +7,7 @@ const Navigation: React.FC = () => {
   const navItems = [
     { path: '/', label: 'Home', exact: true },
     { path: '/container-presentational', label: 'Container & Presentational' },
+    { path: '/component-composition', label: 'Component Composition' },
   ];
 
   return (

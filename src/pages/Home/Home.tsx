@@ -9,6 +9,12 @@ const Home: React.FC = () => {
       description: 'Separates business logic from presentation logic for better maintainability and testability.',
       benefits: ['Better separation of concerns', 'Easier testing', 'Reusable presentational components']
     },
+    {
+      name: 'Component Composition',
+      path: '/component-composition',
+      description: 'Builds complex UIs by combining smaller, reusable components and custom hooks.',
+      benefits: ['Logic reusability with custom hooks', 'Better modularity', 'Easier testing and maintenance']
+    },
   ];
 
   return (
