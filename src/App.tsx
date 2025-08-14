@@ -3,6 +3,7 @@ import Navigation from './components/Navigation/Navigation';
 import Home from './pages/Home/Home';
 import ContainerPresentationalPage from './pages/ContainerPresentationalPage/ContainerPresentationalPage';
 import ComponentCompositionPage from './pages/ComponentComposition/ComponentCompositionPage';
+import StateManagerWithReducersPage from './pages/StateManagerWithReducers/StateManagerWithReducersPage';
 import './App.scss';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/container-presentational" element={<ContainerPresentationalPage />} />
             <Route path="/component-composition" element={<ComponentCompositionPage />} />
+            <Route path="/state-manager-with-reducers" element={<StateManagerWithReducersPage />} />
           </Routes>
         </main>
       </div>

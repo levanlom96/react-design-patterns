@@ -15,6 +15,12 @@ const Home: React.FC = () => {
       description: 'Builds complex UIs by combining smaller, reusable components and custom hooks.',
       benefits: ['Logic reusability with custom hooks', 'Better modularity', 'Easier testing and maintenance']
     },
+    {
+      name: 'State Manager with Reducers',
+      path: '/state-manager-with-reducers',
+      description: 'Manages complex state logic using useReducer for predictable state transitions.',
+      benefits: ['Predictable state updates', 'Better for complex state', 'Easier debugging and testing']
+    },
   ];
 
   return (
