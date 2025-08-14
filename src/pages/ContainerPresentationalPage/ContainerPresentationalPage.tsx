@@ -1,4 +1,4 @@
-import StarWarsCharactersContainer from '../../ContainerPresentationalPattern/Container';
+import StarWarsCharactersContainer from './ContainerPresentationalPattern/Container';
 import './ContainerPresentationalPage.scss';
 
 const ContainerPresentationalPage: React.FC = () => {
