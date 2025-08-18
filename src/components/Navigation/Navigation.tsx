@@ -10,6 +10,7 @@ const Navigation: React.FC = () => {
     { path: '/component-composition', label: 'Component Composition' },
     { path: '/state-manager-with-reducers', label: 'State Manager with Reducers' },
     { path: '/higher-order-components', label: 'Higher-Order Components' },
+    { path: '/compound-components', label: 'Compound Components' },
   ];
 
   return (

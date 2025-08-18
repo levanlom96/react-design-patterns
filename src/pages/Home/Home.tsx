@@ -27,6 +27,12 @@ const Home: React.FC = () => {
       description: 'Functions that take components and return enhanced components with additional functionality.',
       benefits: ['Code reuse across components', 'Separation of concerns', 'Composable enhancements']
     },
+    {
+      name: 'Compound Components',
+      path: '/compound-components',
+      description: 'Create flexible component APIs where child components work together through shared context.',
+      benefits: ['Intuitive component composition', 'Flexible layouts', 'Implicit state sharing']
+    },
   ];
 
   return (
