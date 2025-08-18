@@ -21,6 +21,12 @@ const Home: React.FC = () => {
       description: 'Manages complex state logic using useReducer for predictable state transitions.',
       benefits: ['Predictable state updates', 'Better for complex state', 'Easier debugging and testing']
     },
+    {
+      name: 'Higher-Order Components',
+      path: '/higher-order-components',
+      description: 'Functions that take components and return enhanced components with additional functionality.',
+      benefits: ['Code reuse across components', 'Separation of concerns', 'Composable enhancements']
+    },
   ];
 
   return (

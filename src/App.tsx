@@ -4,6 +4,7 @@ import Home from './pages/Home/Home';
 import ContainerPresentationalPage from './pages/ContainerPresentationalPage/ContainerPresentationalPage';
 import ComponentCompositionPage from './pages/ComponentComposition/ComponentCompositionPage';
 import StateManagerWithReducersPage from './pages/StateManagerWithReducers/StateManagerWithReducersPage';
+import HigherOrderComponentsPage from './pages/HigherOrderComponentsPage/HigherOrderComponentsPage';
 import './App.scss';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Route path="/container-presentational" element={<ContainerPresentationalPage />} />
             <Route path="/component-composition" element={<ComponentCompositionPage />} />
             <Route path="/state-manager-with-reducers" element={<StateManagerWithReducersPage />} />
+            <Route path="/higher-order-components" element={<HigherOrderComponentsPage />} />
           </Routes>
         </main>
       </div>
