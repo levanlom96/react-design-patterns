@@ -6,6 +6,7 @@ import ComponentCompositionPage from './pages/ComponentComposition/ComponentComp
 import StateManagerWithReducersPage from './pages/StateManagerWithReducers/StateManagerWithReducersPage';
 import HigherOrderComponentsPage from './pages/HigherOrderComponentsPage/HigherOrderComponentsPage';
 import CompoundComponentsPage from './pages/CompoundComponentsPage/CompoundComponentsPage';
+import PropCombinationPage from './pages/PropCombination/PropCombinationPage';
 import './App.scss';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route path="/state-manager-with-reducers" element={<StateManagerWithReducersPage />} />
             <Route path="/higher-order-components" element={<HigherOrderComponentsPage />} />
             <Route path="/compound-components" element={<CompoundComponentsPage />} />
+            <Route path="/prop-combination" element={<PropCombinationPage />} />
           </Routes>
         </main>
       </div>

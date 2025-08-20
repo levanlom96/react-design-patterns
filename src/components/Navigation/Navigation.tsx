@@ -11,6 +11,7 @@ const Navigation: React.FC = () => {
     { path: '/state-manager-with-reducers', label: 'State Manager with Reducers' },
     { path: '/higher-order-components', label: 'Higher-Order Components' },
     { path: '/compound-components', label: 'Compound Components' },
+    { path: '/prop-combination', label: 'Props Combination' },
   ];
 
   return (

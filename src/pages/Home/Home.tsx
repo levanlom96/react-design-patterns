@@ -33,6 +33,12 @@ const Home: React.FC = () => {
       description: 'Create flexible component APIs where child components work together through shared context.',
       benefits: ['Intuitive component composition', 'Flexible layouts', 'Implicit state sharing']
     },
+    {
+      name: 'Props Combination',
+      path: '/prop-combination',
+      description: 'Group related props into objects and use spread operator for cleaner component APIs.',
+      benefits: ['Reusable prop configurations', 'Cleaner component APIs', 'Better prop organization']
+    },
   ];
 
   return (
