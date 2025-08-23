@@ -39,6 +39,12 @@ const Home: React.FC = () => {
       description: 'Group related props into objects and use spread operator for cleaner component APIs.',
       benefits: ['Reusable prop configurations', 'Cleaner component APIs', 'Better prop organization']
     },
+    {
+      name: 'Controlled Input',
+      path: '/controlled-input',
+      description: 'Manage form input state through React for predictable data flow and validation capabilities.',
+      benefits: ['Predictable state management', 'Easy input validation', 'Synchronized UI updates']
+    },
   ];
 
   return (

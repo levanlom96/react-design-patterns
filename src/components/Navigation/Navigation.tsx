@@ -12,6 +12,7 @@ const Navigation: React.FC = () => {
     { path: '/higher-order-components', label: 'Higher-Order Components' },
     { path: '/compound-components', label: 'Compound Components' },
     { path: '/prop-combination', label: 'Props Combination' },
+    { path: '/controlled-input', label: 'Controlled Input' },
   ];
 
   return (
